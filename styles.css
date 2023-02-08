@@ -1,0 +1,204 @@
+/* import roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* root */
+
+:root {
+    --bg-color: #1f2937;
+    --light-text-color: #f9faf8;
+    --btn-color: #3882f6;
+    --grey-text-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* first */
+
+.first.container {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: var(--light-text-color);
+    justify-self: flex-end;
+    
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    color: var(--grey-text-color);
+    justify-self: flex-end;
+}
+
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 90px;
+}
+
+.text-presentation {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--light-text-color);
+}
+.text-presentation  {
+    color:var(--grey-text-color);
+}
+
+.image-presentation {
+    background-color: gray;
+    width: 500px;
+    height: 250px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-presentation p {
+    color: var(--grey-text-color);
+    font-size: 12px;
+}
+
+.btn1 {
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--light-text-color);
+    width: 100px;
+    height: 20px;
+}
+
+/* second container */
+
+.second.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 60px;
+}
+
+.second.container h3 {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+
+.icons_container {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    align-self: center;
+
+}
+
+.icons_container p {
+    color: var(--bg-color);
+    font-weight: 200;
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+}
+
+.small_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 3px solid var(--btn-color);
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+
+/* third container */
+
+
+.third.container {
+    background-color: var(--grey-text-color);
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    max-width: 800px;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote em {
+    color: var(--bg-color);
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote h4 {
+    font-size: 18px;
+    align-self:flex-end;
+}
+
+
+
+/* fourth */
+
+.fourth.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.announcement {
+    background-color: var(--btn-color);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 1200px;
+    margin: 90px;
+    padding: 30px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: var(--btn-color);
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+/* footer */
+
+.foot {
+    padding: 60px;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--grey-text-color);
+    
+}
